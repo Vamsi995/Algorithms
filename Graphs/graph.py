@@ -9,6 +9,8 @@ class Vertex:
         self.color = "white"
         self.parent = None
         self.adj_vertices = {}
+        self.discoveryTime = 0
+        self.finishTime = 0
 
 
 class Graph:
